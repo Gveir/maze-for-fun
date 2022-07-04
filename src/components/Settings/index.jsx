@@ -1,9 +1,9 @@
-import MazeSize from "./MazeSize"
+import MazeSize from './MazeSize'
 
 export default () => {
-    return (
-        <div className="w-1/6">
-            <MazeSize value={2} />
-        </div>
-    )
+  return (
+    <div className='w-1/6'>
+      <MazeSize />
+    </div>
+  )
 }
